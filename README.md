@@ -1,7 +1,7 @@
 # Asterisk-syntax
  Asterisk-syntax
 
-Asterisk syntax file "asterisk.syntax" need place to this directory
+Asterisk syntax file "asterisk.syntax" for "mcedit" need place to this directory
 /usr/share/mc/syntax
 
 
