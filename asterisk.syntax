@@ -1,0 +1,308 @@
+context default
+
+######################
+# Control structures
+
+    keyword whole AbsoluteTimeout brightmagenta
+    keyword whole AddQueueMember brightmagenta
+    keyword whole ADSIProg brightmagenta
+    keyword whole Agent brightmagenta
+    keyword whole AgentCallBackLogin brightmagenta
+    keyword whole AgentLogin brightmagenta
+    keyword whole AgentMonitorOutgoing brightmagenta
+    keyword whole AGI brightmagenta
+    keyword whole Answer yellow
+    keyword whole Congestion yellow    
+    keyword whole Dial yellow    
+    keyword whole Busy yellow
+    keyword whole AppendCDRUserField brightmagenta
+    keyword whole Authenticate brightmagenta
+    keyword whole Background brightmagenta
+    keyword whole CallingPres brightmagenta
+    keyword whole ChangeMonitor brightmagenta
+    keyword whole ChanIsAvail brightmagenta
+    keyword whole Chanspy brightmagenta
+    keyword whole Cut brightmagenta
+    keyword whole DateTime brightmagenta
+    keyword whole DBdel brightmagenta
+    keyword whole DBdeltree brightmagenta
+    keyword whole DBget brightmagenta
+    keyword whole DBput brightmagenta
+    keyword whole DeadAGI brightmagenta
+    keyword whole DigitTimeout brightmagenta
+    keyword whole Directory brightmagenta
+    keyword whole DISA brightmagenta
+    keyword whole EAGI brightmagenta
+    keyword whole Echo brightmagenta
+    keyword whole EnumLookup brightmagenta
+    keyword whole Eval brightmagenta
+    keyword whole Festival brightmagenta
+    keyword whole Flash brightmagenta
+    keyword whole GetCPEID brightmagenta
+    keyword whole Goto brightmagenta
+    keyword whole GoTo brightmagenta    
+    keyword whole GotoIf brightmagenta
+    keyword whole GotoIfTime brightmagenta
+    keyword whole Gosub brightmagenta
+    keyword whole Gosubif brightmagenta
+    keyword whole GosubIf brightmagenta
+    keyword whole Hangup brightmagenta
+    keyword whole HangUp brightmagenta
+    keyword whole ForkCDR brightmagenta
+    keyword whole FORKCDR brightmagenta
+    keyword whole Forkcdr brightmagenta
+    keyword whole forkcdr brightmagenta
+    keyword whole forkCDR brightmagenta
+    keyword whole HasNewVoicemail brightmagenta
+    keyword whole ICES brightmagenta
+    keyword whole LookupBlacklist brightmagenta
+    keyword whole LookupCIDName brightmagenta
+    keyword whole Macro brightmagenta
+    keyword whole MailboxExists brightmagenta
+    keyword whole MeetMe brightmagenta
+    keyword whole MeetMeCount brightmagenta
+    keyword whole Milliwatt brightmagenta
+    keyword whole MixMonitor brightmagenta
+    keyword whole Monitor brightmagenta
+    keyword whole MP3Player brightmagenta
+    keyword whole MusicOnHold brightmagenta
+    keyword whole NBScat brightmagenta
+    keyword whole NoCDR brightmagenta
+    keyword whole NoOp brightmagenta
+    keyword whole ParkAndAnnounce brightmagenta
+    keyword whole ParkedCall brightmagenta
+    keyword whole Pickup brightmagenta    
+    keyword whole Playback brightmagenta
+    keyword whole Playtones brightmagenta
+    keyword whole Prefix brightmagenta
+    keyword whole PrivacyManager brightmagenta
+    keyword whole Progress brightmagenta
+    keyword whole Queue brightmagenta
+    keyword whole Random brightmagenta
+    keyword whole Read brightmagenta
+    keyword whole Record brightmagenta
+    keyword whole RemoveQueueMember brightmagenta
+    keyword whole ResetCDR brightmagenta
+    keyword whole Return brightmagenta
+    keyword whole ResponseTimeout brightmagenta
+    keyword whole Ringing brightmagenta
+    keyword whole SayDigits brightmagenta
+    keyword whole SayNumber brightmagenta
+    keyword whole SayUnixTime brightmagenta
+    keyword whole SendDTMF brightmagenta
+    keyword whole SendImage brightmagenta
+    keyword whole SendURL brightmagenta
+    keyword whole SetAccount brightmagenta
+    keyword whole SetCallerID brightmagenta
+    keyword whole SetCDRUserField brightmagenta
+    keyword whole SetCIDName brightmagenta
+    keyword whole SetCIDNum brightmagenta
+    keyword whole SetGlobalVar brightmagenta
+    keyword whole SetLanguage brightmagenta
+    keyword whole SetMusicOnHold brightmagenta
+    keyword whole Set brightmagenta
+    keyword whole SetVar brightmagenta
+    keyword whole SIPDtmfMode brightmagenta
+    keyword whole SoftHangup brightmagenta
+    keyword whole StopMonitor brightmagenta
+    keyword whole StopPlaytones brightmagenta
+    keyword whole StripLSD brightmagenta
+    keyword whole StripMSD brightmagenta
+    keyword whole SubString brightmagenta
+    keyword whole Suffix brightmagenta
+    keyword whole Swift brightmagenta
+    keyword whole System brightmagenta
+    keyword whole Transfer brightmagenta
+    keyword whole VoiceMail brightmagenta
+    keyword whole Voicemail brightmagenta
+    keyword whole VoiceMail2 brightmagenta
+    keyword whole VoiceMailMain brightmagenta
+    keyword whole VoicemailMain brightmagenta
+    keyword whole VoiceMailMain2 brightmagenta
+    keyword whole Wait brightmagenta
+    keyword whole WaitExten brightmagenta
+    keyword whole WaitForRing brightmagenta
+    keyword whole WaitMusicOnHold brightmagenta
+    keyword whole Zapateller brightmagenta
+    keyword whole ZapBarge brightmagenta
+    keyword whole ZapRAS brightmagenta
+    keyword whole ZapScan brightmagenta
+
+
+#############
+# Functions
+
+    keyword whole exten red
+    keyword whole include red
+    keyword whole switch yellow
+    keyword whole  yellow
+    keyword whole  yellow
+    keyword whole  yellow
+    keyword whole  yellow
+    keyword whole  yellow
+    keyword whole  yellow
+
+#############
+# Methods
+
+# using '->' to distinguish these from regular keywords
+
+    keyword whole ->add yellow
+    keyword whole ->addAction yellow
+    keyword whole ->skewX yellow
+    keyword whole ->skewXTo yellow
+    keyword whole ->skewY yellow
+    keyword whole ->skewYTo yellow
+    keyword whole ->specified yellow
+    keyword whole ->unlock yellow
+    keyword whole ->user yellow
+    keyword whole ->userlist yellow
+    keyword whole ->validate yellow
+    keyword whole ->value yellow
+    keyword whole ->values yellow
+    keyword whole ->write yellow
+    keyword whole ->writeTemporary yellow
+    keyword whole ->xinclude yellow
+    keyword whole ->xpath yellow
+
+########################
+# predefined constants
+
+# core
+    keyword whole PHP_VERSION white
+    keyword whole PHP_OS white
+    keyword whole DEFAULT_INCLUDE_PATH white
+    keyword whole PEAR_INSTALL_DIR white
+    keyword whole PEAR_EXTENSION_DIR white
+    keyword whole E_COMPILE_ERROR white
+    keyword whole E_COMPILE_WARNING white
+    keyword whole E_USER_ERROR white
+    keyword whole E_USER_WARNING white
+    keyword whole E_USER_NOTICE white
+    keyword whole E_ALL white
+
+# gd
+    keyword whole IMG_GIF white
+    keyword whole IMG_JPG white
+    keyword whole IMG_JPEG white
+    keyword whole IMG_ARC_PIE white
+    keyword whole IMG_ARC_CHORD white
+    keyword whole IMG_ARC_NOFILL white
+    keyword whole IMG_ARC_EDGED white
+
+# pcre
+    keyword whole PREG_PATTERN_ORDER white
+    keyword whole PREG_SET_ORDER white
+    keyword whole PREG_SPLIT_NO_EMPTY white
+    keyword whole PREG_SPLIT_DELIM_CAPTURE white
+    keyword whole PREG_GREP_INVERT white
+
+# session
+    keyword whole SID white
+
+# zlib
+    keyword whole FORCE_GZIP white
+    keyword whole FORCE_DEFLATE white
+
+
+
+
+
+####################################
+# expressions, operators and other
+#
+#    keyword whole var white
+#    keyword whole as white
+#    keyword whole and white
+#    keyword whole or white
+#
+#    keyword whole __FILE__ brightred
+#    keyword whole __LINE__ brightred
+#
+#    keyword whole parent brightmagenta
+#    keyword whole $this brightmagenta
+#
+#    keyword wholeright $+ brightgreen
+#
+#    keyword /\* brown
+#    keyword \*/ brown
+#    keyword // brown
+#
+#    keyword <?php white
+#    keyword <? white
+#    keyword ?> white
+#    keyword <html cyan
+#    keyword <HTML cyan
+#    keyword <doctype cyan
+#    keyword <DOCTYPE cyan
+#
+#    keyword > white
+#    keyword < white
+#    keyword \+ white
+#    keyword - white
+#    keyword \* white
+#    keyword / white
+#    keyword % white
+#    keyword = white
+#    keyword != white
+#    keyword == white
+#    keyword & white
+    keyword | white
+#    keyword :: white
+#    keyword => brightgreen
+    keyword => white
+    keyword ${ green
+    keyword } green
+#    keyword } brightcyan
+#    keyword ( brightcyan
+#    keyword ) brightcyan
+    keyword [ white
+    keyword ] white
+    keyword , cyan
+#    keyword : brightcyan
+#    keyword ; brightmagenta
+    keyword ; cyan
+
+context exclusive ; \n cyan
+context exclusive [ ] white
+context exclusive { } brightgreen
+
+#    keyword whole &*; brightgreen
+#    keyword whole * cyan
+
+#    keyword whole &*; white
+#    keyword whole &*; brightgreen
+#context exclusive <HTML <? cyan
+#    keyword whole &*; brightgreen
+#context exclusive <doctype <? cyan
+#    keyword whole &*; brightgreen
+#context exclusive <DOCTYPE <? cyan
+#    keyword whole &*; brightgreen
+
+#context exclusive /\* \*/ brown
+#    spellcheck
+#context exclusive // \n brown
+#    spellcheck
+
+context " " green
+    spellcheck
+    keyword \\" brightgreen
+    keyword \\\n brightgreen
+    keyword %% brightgreen
+    keyword %\[#0\s-\+,\]\[0123456789\]\[.\]\[0123456789\]\[L\]\{eEfgGoxX\} brightgreen
+    keyword %\[0\s-\+,\]\[0123456789\]\[.\]\[0123456789\]\[hl\]\{diu\} brightgreen
+    keyword %\[hl\]n brightgreen
+    keyword %\[.\]\[0123456789\]s brightgreen
+    keyword %[*] brightgreen
+    keyword %c brightgreen
+    keyword \\\{0123\}\{01234567\}\{01234567\} brightgreen
+    keyword \\\\ brightgreen
+    keyword \\' brightgreen
+    keyword \\\{abtnvfr\} brightgreen
+
+#context ' ' brightgreen
+#    spellcheck
+#    keyword \\' brightcyan
+
+#context => , brightgreen 
+
