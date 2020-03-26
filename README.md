@@ -8,3 +8,10 @@ Asterisk syntax file "asterisk.syntax" for "mcedit" need place to this directory
 Also need add line 
 file ..\*\\.(conf)$ Config\sFile
 include asterisk.syntax
+
+
+
+
+На памать запишу регулярное выражение для валидации номера телефона в России:
+
+^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$
